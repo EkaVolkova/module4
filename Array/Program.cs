@@ -42,6 +42,26 @@ namespace Array
 
                 Console.WriteLine();
             }
+
+            //Сортировка
+            var arr = new int[] { 5, 6, 9, 1, 2, 3, 4 };
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[i] > arr[j])
+                    {
+                        int k = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = k;
+                    }
+                }
+                
+            }
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write(arr[i] + " ");
+            }
         }
     }
 }
