@@ -72,6 +72,20 @@ namespace Array
                 Sum += arr[i];
             }
             Console.WriteLine(Sum);
+
+            //Зубчатый массив
+            Console.WriteLine("\n\nЗубчатый массив");
+            int[][] jagedArray = new int[3][];
+            jagedArray[0] = new int[2] { 1, 2 };
+            jagedArray[1] = new int[3] { 1, 2, 3 };
+            jagedArray[2] = new int[5] { 1, 2, 3, 4, 5 };
+            foreach(var arrays in jagedArray)
+            {
+                foreach (var items in arrays)
+                {
+                    Console.Write(items + " ");
+                }
+            }
         }
     }
 }
