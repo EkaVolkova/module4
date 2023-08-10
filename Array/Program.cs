@@ -86,6 +86,20 @@ namespace Array
                     Console.Write(items + " ");
                 }
             }
+
+            //Счетчик положительных чисел в массиве
+            Console.WriteLine("\n\nСчетчик положительных чисел в массиве");
+            int[] arrayWithNegative = { 1, -2, 3, -4, 5, -6 };
+            Console.WriteLine("Исходный массив: ");
+            int counterPositive = 0;
+            foreach (var items in arrayWithNegative)
+            {
+                Console.Write(items + " ");
+                if (items > 0)
+                    counterPositive++;
+            }
+            Console.WriteLine("\nПоложительных элементов " + counterPositive);
+
         }
     }
 }
