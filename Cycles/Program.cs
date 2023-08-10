@@ -14,8 +14,10 @@ namespace Cycles
             {
                 Console.WriteLine(k);
 				Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
-
-				switch (Console.ReadLine())
+				string text = Console.ReadLine();
+				if (text == "Stop")
+					break;
+				switch (text)
 				{
 					case "red":
 						Console.BackgroundColor = ConsoleColor.Red;
@@ -44,6 +46,7 @@ namespace Cycles
 				}
 				k++;
 
+
 			}
 
 			//Цикл do..while
@@ -54,7 +57,10 @@ namespace Cycles
 				Console.WriteLine(t);
 				Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
-				switch (Console.ReadLine())
+				string text = Console.ReadLine();
+				if (text == "Stop")
+					continue;
+				switch (text)
 				{
 					case "red":
 						Console.BackgroundColor = ConsoleColor.Red;
