@@ -100,6 +100,18 @@ namespace Array
             }
             Console.WriteLine("\nПоложительных элементов " + counterPositive);
 
+            //Счетчик положительных чисел в двумерном массиве
+            Console.WriteLine("\n\nСчетчик положительных чисел в двумерном массиве");
+            int[,] array2WithNegative = { { -5, 6, 9, 1, 2, -3 }, { -8, 8, 1, 1, 2, -3 } };
+            Console.WriteLine("Исходный массив: ");
+            counterPositive = 0;
+            foreach (var items in array2WithNegative)
+            {
+                Console.Write(items + " ");
+                if (items > 0)
+                    counterPositive++;
+            }
+            Console.WriteLine("\nПоложительных элементов " + counterPositive);
         }
     }
 }
