@@ -44,6 +44,7 @@ namespace Array
             }
 
             //Сортировка
+            Console.WriteLine("\n\nСортировка");
             var arr = new int[] { 5, 6, 9, 1, 2, 3, 4 };
             for (int i = 0; i < arr.Length - 1; i++)
             {
@@ -62,6 +63,15 @@ namespace Array
             {
                 Console.Write(arr[i] + " ");
             }
+
+            //Сумма элементов массива
+            Console.WriteLine("\n\nСумма элементов массива");
+            int Sum = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Sum += arr[i];
+            }
+            Console.WriteLine(Sum);
         }
     }
 }
