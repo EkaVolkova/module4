@@ -112,6 +112,32 @@ namespace Array
                     counterPositive++;
             }
             Console.WriteLine("\nПоложительных элементов " + counterPositive);
+
+            //Сортировка двумерного массива построчная
+            Console.WriteLine("\n\nСортировка двумерного массива построчная");
+            for (int i = 0; i < array2WithNegative.GetUpperBound(0) + 1; i++)
+            {
+                for (int j = 0; j < array2WithNegative.GetUpperBound(1) + 1; j++)
+                {
+                    for (int k = j + 1; k < array2WithNegative.GetUpperBound(1) + 1; k++)
+                    {
+                        if (array2WithNegative[i, j] > array2WithNegative[i, k])
+                        {
+                            int l = array2WithNegative[i, j];
+                            array2WithNegative[i, j] = array2WithNegative[i, k];
+                            array2WithNegative[i, k] = l;
+                        }
+                    }
+
+                }
+            }
+            for (int i = 0; i < array2WithNegative.GetUpperBound(0) + 1; i++)
+            {
+                for (int k = 0; k < array2WithNegative.GetUpperBound(1) + 1; k++)
+                    Console.Write(array2WithNegative[i, k] + " ");
+
+                Console.WriteLine();
+            }
         }
     }
 }
