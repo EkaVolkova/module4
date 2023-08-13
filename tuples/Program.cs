@@ -6,12 +6,14 @@ namespace tuples
     {
         static void Main(string[] args)
         {
-            (string name, int age) anketa;
+            var (name, age) = ("Екатерина", 26);
+            Console.WriteLine("Мое имя {0}", name);
+            Console.WriteLine("Мне {0} лет", age);
             Console.WriteLine("Введите свое имя");
-            anketa.name = Console.ReadLine();
+            name = Console.ReadLine();
             Console.WriteLine("Введите свой возраст");
-            anketa.age = int.Parse(Console.ReadLine());
-            Console.WriteLine("Твое имя {0}\nТебе {1} лет", anketa.name, anketa.age);
+            age = int.Parse(Console.ReadLine());
+            Console.WriteLine("Твое имя {0}\nТебе {1} лет", name, age);
 
         }
     }
