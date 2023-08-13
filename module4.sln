@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "module4.1.4", "module4.1.4\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "module4.1.17", "module4.1.17\module4.1.17.csproj", "{DF079A4D-54E6-46DD-B9D1-BCBD12B42FF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cycles", "Cycles\Cycles.csproj", "{2E16FB0E-54C2-47C6-BAC5-943047F61B4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cycles", "Cycles\Cycles.csproj", "{2E16FB0E-54C2-47C6-BAC5-943047F61B4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{D7A461CA-3CA6-4DD5-9ADE-2A0C0B453DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{D7A461CA-3CA6-4DD5-9ADE-2A0C0B453DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tuples", "tuples\tuples.csproj", "{68856894-BB65-4092-9DCE-0DEF28FA454E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D7A461CA-3CA6-4DD5-9ADE-2A0C0B453DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A461CA-3CA6-4DD5-9ADE-2A0C0B453DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A461CA-3CA6-4DD5-9ADE-2A0C0B453DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68856894-BB65-4092-9DCE-0DEF28FA454E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68856894-BB65-4092-9DCE-0DEF28FA454E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68856894-BB65-4092-9DCE-0DEF28FA454E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68856894-BB65-4092-9DCE-0DEF28FA454E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
