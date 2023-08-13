@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tuples", "tuples\tuples.csproj", "{68856894-BB65-4092-9DCE-0DEF28FA454E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anketa", "Anketa\Anketa.csproj", "{8E400B67-DE77-475E-8105-13933B3570F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{68856894-BB65-4092-9DCE-0DEF28FA454E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68856894-BB65-4092-9DCE-0DEF28FA454E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68856894-BB65-4092-9DCE-0DEF28FA454E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E400B67-DE77-475E-8105-13933B3570F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E400B67-DE77-475E-8105-13933B3570F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E400B67-DE77-475E-8105-13933B3570F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E400B67-DE77-475E-8105-13933B3570F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
